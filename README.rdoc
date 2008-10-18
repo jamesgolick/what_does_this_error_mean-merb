@@ -1,4 +1,4 @@
-= What Does This Error Mean - Merb
+= What Does This Error Mean - Merb Plugin
 
 This plugin overrides the error message page that appears in merg development mode when an exception is raised to provide a link to search whatdoesthiserrormean.com for that error.
 

@@ -92,7 +92,7 @@
     lots of love, from <a href="http://www.merbivore.com">merb</a>
   </div>
   <div class="wdtem">
-    <form action="http://whatdoesthiserrormean.com/error/search" method="POST" name="wdtem">
+    <form action="http://whatdoesthiserrormean.com/search" method="POST" name="wdtem">
       <input type="hidden" name="q" value="<%= exception.class.name.to_s %> <%= exception.message %>" />
     </form>
     <%= link_to image_tag('http://whatdoesthiserrormean.com/images/logo_for_error_page.gif', :border => 0), "javascript: document.forms.wdtem.submit();" %>

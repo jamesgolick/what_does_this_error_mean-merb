@@ -15,7 +15,7 @@ spec = Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.8.5'
 
-  s.files                 = %w(README MIT-LICENSE) +
+  s.files                 = %w(README.rdoc MIT-LICENSE) +
                             Dir.glob("{lib,templates}/**/*")
   
   s.require_path          = "lib"
